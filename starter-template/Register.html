@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+	<nav class="light-blue lighten-1" role="navigation">
+		<div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Projetos III - PEUP</a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="login.html">Log in</a></li>				
+				<li><a href="Register.html">Register</a></li>
+			</ul>
+
+			<ul id="nav-mobile" class="sidenav">
+				<li><a href="login.html">Log in</a></li>			
+				<li><a href="Register.html">Register</a></li>
+			</ul>
+		  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>	
+	
+	<form class="modal-content animate" action="/action_page.php">
+		<div class="container">
+			<div class="card grey lighten-4">
+				<div class="card-content grey-text text-darken-1">
+					<span class="card-title">Register</span>
+					<div class="divider"></div>	
+						<div class="row">
+							<form class="col s12">
+								<div class="row">
+									<div class="input-field col s4">
+										<input placeholder="First Name" id="first_name" type="text" class="validate">
+										<label for="first_name">Primeiro Nome</label>
+									</div>
+									<div class="input-field col s4">
+										<input  id="middle_name" type="text" class="validate">
+										<label for="middle_name">Nome do Meio</label>
+									</div>
+									<div class="input-field col s4">
+										<input id="last_name" type="text" class="validate">
+										<label for="last_name">Sobrenome</label>
+									</div>
+								</div>      
+								<div class = "row">
+									<div class = "input-field col s3">
+										<input type="text" class="datepicker" id="date_picker">
+										<label for="date_picker">Data de Nascimento</label>
+									</div>
+									<div class = "input-field col s4">
+										<h6>Genero:</h6>
+										<form action ="#">
+											<div>
+												<label>
+												<input name="gender" type="radio" />
+												<span>Homem</span>
+												</label>
+												<label>
+												<input name="gender" type="radio" />
+												<span>Mulher</span>
+												</label>
+											</div>
+										</form>
+									</div>
+									<div class = "input-field col s5">
+										<h6>Estado Civil:</h6>
+										<form action ="#">
+											<div>
+												<label>
+												<input name="marital_status" type="radio" />
+												<span>Solterio</span>
+												</label>
+												<label>
+												<input name="marital_status" type="radio" />
+												<span>Casado</span>
+												</label>
+												<label>
+												<input name="marital_status" type="radio" />
+												<span>Viuvo</span>
+												</label>
+												<label>
+												<input name="marital_status" type="radio" />
+												<span>Separado</span>
+												</label>
+												<label>
+												<input name="marital_status" type="radio" />
+												<span>Divorciado</span>
+												</label>
+											</div>
+										</form>
+									</div>
+								</div>
+								<div class ="row">
+									<div class = "input-field col s12">
+										<input id="email" type = "email" class = "validate">
+										<label for ="email"> Email</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class="input-field col s12">
+										<input id="password" type="password" class="validate">
+										<label for="password">Password</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class = "input-field col s12">
+										<input id="adress" type="text">
+										<label for ="adress"> Endereco</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class = "input-field col s5">
+										<input id="city" type="text">
+										<label for ="city">Cidade</label>
+									</div>
+									<div class = "input-field col s2">
+										<input id="state" type="text">
+										<label for ="state">Estado</label>
+									</div>
+									<div class = "input-field col s5">
+										<input id="CEP" type="text">
+										<label for ="CEP">CEP</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class ="input-field col s5">
+										<input id="home_number" type ="text">
+										<label for="home_number" type = "text">Numero Fixo</label>
+									</div>
+									<div class ="input-field col s2">
+										<input id="DDD" type ="text">
+										<label for="DDD" type = "text">DDD</label>
+									</div>
+									<div class ="input-field col s5">
+										<input id="mobile_number" type ="text">
+										<label for="mobile_number" type = "text">Numero do celular</label>
+									</div>
+								</div>
+								<div class="row">
+									<div class = "input-field col s5">
+										<h6>Em qual meio voce prefere ser contatado?</h6>
+										<form action ="#">
+											<div>
+												<label>
+												<input name="contact" type="radio" />
+												<span>Telefone</span>
+												</label>
+												<label>
+												<input name="contact" type="radio" />
+												<span>Email</span>
+												</label>
+											</div>
+										</form>
+									</div>
+									<div class = "input-field col s7">
+										<h6>Eu sou:</h6>
+										<form action ="#">
+											<div>
+												<label>
+													<input name="work" type="radio" />
+													<span>Empregado</span>
+												</label>
+												<label>
+													<input name="work" type="radio" />
+													<span>Autonomo</span>
+												</label>
+												<label>
+													<input name="work" type="radio" />
+													<span>Desempregado</span>
+												</label>
+												<label>
+													<input name="work" type="radio" />
+													<span>Aposentado</span>
+												</label>
+											</div>
+										</form>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s6 offset-s5">
+										<button class="btn waves-effect waves-light" type="submit" name="action">Submit
+										<i class="material-icons left">send</i>
+										</button>	  
+									</div>
+								</div>
+								
+							</form>
+					</div>        				
+				</div>
+			</div>
+		</div>
+	</form>
+	<footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+                   </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Other Thing</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="#!">Team 7</a>
+      </div>
+    </div>
+  </footer>
+	<!--  Scripts-->
+		<script>
+		document.addEventListener('DOMContentLoaded', function() {
+		var elems = document.querySelectorAll('.datepicker');
+		var instances = M.Datepicker.init(elems, null);
+		});
+		</script>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/materialize.js"></script>
+		<script src="js/init.js"></script>
+		
+		
+</body>
+</html>
