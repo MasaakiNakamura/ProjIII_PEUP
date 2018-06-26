@@ -111,13 +111,18 @@
 									</div>
 								</div>
 								<div class="row">
+									<div class = "input-field col s2">
+									<select>
+										<option value="" disabled selected>Estado</option>
+										<option value="1">Option 1</option>
+										<option value="2">Option 2</option>
+										<option value="3">Option 3</option>
+									</select>
+										<label>Escolha o </label>
+									</div>
 									<div class = "input-field col s5">
 										<input id="city" type="text">
 										<label for ="city">Cidade</label>
-									</div>
-									<div class = "input-field col s2">
-										<input id="state" type="text">
-										<label for ="state">Estado</label>
 									</div>
 									<div class = "input-field col s5">
 										<input id="CEP" type="text">
@@ -222,16 +227,8 @@
     </div>
   </footer>
 	<!--  Scripts-->
-		<script>
-		document.addEventListener('DOMContentLoaded', function() {
-		var elems = document.querySelectorAll('.datepicker');
-		var instances = M.Datepicker.init(elems, null);
-		});
-		</script>
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script src="js/materialize.js"></script>
-		<script src="js/init.js"></script>
-		
-		
+		<script src="js/Register.js"></script>
 </body>
 </html>
